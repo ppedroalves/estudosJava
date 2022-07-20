@@ -28,7 +28,7 @@ public class App {
 
 
         System.out.println("UTILIZANDO O REDUCE");
-        Integer total =  outraslangs.stream().reduce(100, (acumulator, n) -> acumulator + n);
+        Integer total =  outraslangs.stream().reduce(0, (acumulator, n) -> acumulator + n);
 
         System.out.println(total);
 
